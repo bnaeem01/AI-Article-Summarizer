@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Article Summarizer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        #summary {
+            margin-top: 20px;
+        }
+    </style>
+    <script src="popup.js"></script> <!-- Include external JavaScript file -->
+</head>
+
+<body>
+    <h2>Summarize an Article</h2>
+    <input type="text" id="articleUrl" placeholder="Enter Article URL">
+    <button id="summarizeButton">Summarize</button>
+    <div id="summary"></div>
+</body>
+
+</html>
